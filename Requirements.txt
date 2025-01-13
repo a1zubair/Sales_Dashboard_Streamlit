@@ -1,3 +1,4 @@
+streamlit
 pandas
-shiny
-plotly.express
+numpy
+matplotlib

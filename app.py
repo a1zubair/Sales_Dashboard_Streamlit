@@ -101,7 +101,7 @@ fig_monthly_sales.update_layout(
     yaxis_title="Total Sales",
     title=dict(
         text="Monthly Sales Trend",
-        x=0.5,  # Center the title
+        x=0.5,  
         xanchor="center",
         yanchor="top"
     )
@@ -146,7 +146,7 @@ fig_sales_discount = px.scatter(
     y="Sales",
     template="plotly_dark",
     title="Total Sales with Discounts",
-    color_discrete_sequence=["#ff7f0e"]  # Replace `colors[7]` with a fixed color
+    color_discrete_sequence=["#ff7f0e"]  
 )
 
 fig_sales_discount.update_layout(
@@ -173,7 +173,7 @@ fig_discount_group = px.scatter(
     y="Profit",
     template="plotly_dark",
     title="Total Profit with Discount",
-    color_discrete_sequence=["#ff7f0e"]  # Replace `colors[7]` with a fixed color
+    color_discrete_sequence=["#ff7f0e"]  
 )
 
 fig_discount_group.update_traces(
@@ -193,5 +193,3 @@ fig_discount_group.update_layout(
 )
 
 st.plotly_chart(fig_discount_group)
-
-# Run the app using: streamlit run app.py

@@ -46,73 +46,57 @@ Profit: Profit/Loss incurred.
 
 The dashboard has three interactive filters:
 
-  <img width="337" alt="Screenshot 2025-01-14 at 10 54 06 PM" src="https://github.com/user-attachments/assets/0d91e9f7-5919-4b17-b149-61f6507ddaef" />
+ - Region Filter: Users can filter sales data based on specific regions.
+ -  Category Filter: Filters are available for selecting one or more product categories.
+ -   Date Range Filter: Enables narrowing down data within a specific timeframe.
 
- 1) Region Filter: Users can filter sales data based on specific regions.
- 2) Category Filter: Filters are available for selecting one or more product categories.
- 3) Date Range Filter: Enables narrowing down data within a specific timeframe.
-
-## b) Key Metrics
+## b) Key Metrics : Total Sales, Total Profit and Total Orders
 
    <img width="890" alt="Screenshot 2025-01-14 at 11 02 55 PM" src="https://github.com/user-attachments/assets/fe6b4c3f-3aa4-42b1-bcb4-c2c79a306877" />
 
-The key metrics in my dashboard are Total Sales, Total Profit and Total orders.
-
 ## c) Visualizations
 
-1. Yearly Sales Trend
+1. Yearly Sales Trend : The total Sales are highest in 2017, following following 2016,  2014 and 2015
 
    <img width="996" alt="Screenshot 2025-01-14 at 11 09 06 PM" src="https://github.com/user-attachments/assets/af25a2ac-be9f-45cd-9762-bb9d0393d1af" />
-   
-The total Sales are highest in 2017, following following 2016,  2014 and 2015
+
 
 ##
 
-2. Monthly Sales Trend
+2. Monthly Sales Trend : The Montly Sales have been strong in June 2017
 
    <img width="985" alt="Screenshot 2025-01-14 at 11 11 59 PM" src="https://github.com/user-attachments/assets/ab326c33-2753-4d30-8c7a-ddb20fc2ff7d" />
 
-The Montly Sales have been strong in June 2017
-
 ##
 
-3. Sales by Region
+3. Sales by Region : The West region has the highest sales, followed by East, Central and South regions.
 
     <img width="938" alt="Screenshot 2025-01-14 at 11 11 37 PM" src="https://github.com/user-attachments/assets/127b5962-6be1-4f20-b503-631823b90906" />
 
-The West region has the highest sales, followed by East, Central and South regions.
 
 ##
 
-4. Top Produts by Sales
+4. Top Produts by Sales : The image displays the top ten best-selling products based on the highest sales revenue.
    
     <img width="975" alt="Screenshot 2025-01-14 at 11 12 21 PM" src="https://github.com/user-attachments/assets/1ecb95c6-9745-474c-b73f-def94de03a0f" />
 
-The image displays the top ten best-selling products based on the highest sales revenue.
-
 ##
 
-5. Profit Percentage by Category
+5. Profit Percentage by Category : Technology sales generate the highest amount of profit, followed by offfice sales and then furniture.
 
     <img width="955" alt="Screenshot 2025-01-14 at 11 12 40 PM" src="https://github.com/user-attachments/assets/886f1b7c-acf4-40ce-976f-d6c2456bc8e8" />
 
-Technology sales generate the highest amount of profit, followed by offfice sales and then furniture.
-
 ##
 
-6. Discount Vs Total Sales
+6. Discount Vs Total Sales :  The figure shows a significant concentration of sales is observed at a 0% discount, with some reaching higher total sales values. And the next bigger sales are when a 50% discount is applied to the products. 
    
-   <img width="869" alt="Screenshot 2025-01-14 at 11 12 58 PM" src="https://github.com/user-attachments/assets/329eed75-204e-4c2a-bb1d-26921b998081" />
-
-The figure shows a significant concentration of sales is observed at a 0% discount, with some reaching higher total sales values. And the next bigger sales are when a 50% discount is applied to the products.  
+   <img width="869" alt="Screenshot 2025-01-14 at 11 12 58 PM" src="https://github.com/user-attachments/assets/329eed75-204e-4c2a-bb1d-26921b998081" /> 
 
 ##
    
-7. Discount Vs Total Profit
+7. Discount Vs Total Profit : The image shows that as discounts increase, total profit generally declines, with profits even turning negative at higher discount levels.
 
    <img width="827" alt="Screenshot 2025-01-14 at 11 13 17 PM" src="https://github.com/user-attachments/assets/14099df3-9e1d-4f37-b927-5932be2d178b" />
-
-The image shows that as discounts increase, total profit generally declines, with profits even turning negative at higher discount levels.
 
 ##
 
@@ -120,25 +104,25 @@ The image shows that as discounts increase, total profit generally declines, wit
 
 ## a) Data Preprocessing
 
-1) The Order Date column was converted into a datetime format for accurate filtering and time-series analysis.
+-  The Order Date column was converted into a datetime format for accurate filtering and time-series analysis.
    
-2) Derived fields such as Year and Month were added to facilitate year-over-year and month-over-month trend analysis.
+-  Derived fields such as Year and Month were added to facilitate year-over-year and month-over-month trend analysis.
 
 ## b) Visualization Tools
 
-1) Leveraged Plotpy for creating interactive charts, providing features like hover effects, tooltips, and custom formatting.
+-  Leveraged Plotpy for creating interactive charts, providing features like hover effects, tooltips, and custom formatting.
    
-2) Used Streamlit for the deployment process which also, enabled real-time interactivity for users.
+-  Used Streamlit for the deployment process which also, enabled real-time interactivity for users.
 
 ## c) Insights Derived:
 
-1) Sales increased consistently over the years, showcasing growth.
+-  Sales increased consistently over the years, showcasing growth.
 
-2) Certain regions demonstrated significantly higher sales compared to others, potentially due to larger customer bases or higher-order volumes.
+-  Certain regions demonstrated significantly higher sales compared to others, potentially due to larger customer bases or higher-order volumes.
 
-3) Analysis of the top-selling products provides actionable insights into inventory and marketing strategies.
+-  Analysis of the top-selling products provides actionable insights into inventory and marketing strategies.
 
-4) Observations revealed that while discounts often boosted sales, they sometimes led to reduced profitability, necessitating careful discount planning.
+-  Observations revealed that while discounts often boosted sales, they sometimes led to reduced profitability, necessitating careful discount planning.
 
 # Deployment
 

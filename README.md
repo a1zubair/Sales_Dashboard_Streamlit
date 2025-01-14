@@ -1,4 +1,4 @@
-# Superstore Sales Dashboard
+  # Superstore Sales Dashboard
 
 # Overview
 This project involves creating an interactive sales dashboard using the Superstore dataset from Kaggle. The dashboard was designed and deployed using Streamlit, a Python-based framework for developing web applications. The objective of this project was to analyze sales performance, explore key metrics, and visualize trends in various dimensions, such as regions, product categories, and timeframes. The dashboard serves as a tool for decision-makers to gain insights into sales and profitability while identifying key trends and opportunities.
@@ -115,4 +115,33 @@ The figure shows a significant concentration of sales is observed at a 0% discou
 The image shows that as discounts increase, total profit generally declines, with profits even turning negative at higher discount levels.
 
 ##
+
+# Implementation Details
+
+## a) Data Preprocessing
+
+1) The Order Date column was converted into a datetime format for accurate filtering and time-series analysis.
+   
+2) Derived fields such as Year and Month were added to facilitate year-over-year and month-over-month trend analysis.
+
+## b) Visualization Tools
+
+1) Leveraged Plotpy for creating interactive charts, providing features like hover effects, tooltips, and custom formatting.
+   
+2) Used Streamlit for the deployment process which also, enabled real-time interactivity for users.
+
+## c) Insights Derived:
+
+1) Sales increased consistently over the years, showcasing growth.
+
+2) Certain regions demonstrated significantly higher sales compared to others, potentially due to larger customer bases or higher-order volumes.
+
+3) Analysis of the top-selling products provides actionable insights into inventory and marketing strategies.
+
+4) Observations revealed that while discounts often boosted sales, they sometimes led to reduced profitability, necessitating careful discount planning.
+
+# Deployment
+
+The project was deployed using Streamlit's sharing platform, allowing public access and ease of demonstration. The app is live at: [Sales Dashboard](https://iwmzpsezammraqyk7tlf2u.streamlit.app/).
+
 

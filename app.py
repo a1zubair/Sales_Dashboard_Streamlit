@@ -1,4 +1,7 @@
 import os
+import pandas as pd
+import streamlit as st
+import plotly.express as px
 
 data_file = os.path.join(os.getcwd(), "Superstore.csv")
 df = pd.read_csv(data_file, encoding="latin1")

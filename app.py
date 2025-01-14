@@ -1,9 +1,6 @@
-#import pandas as pd
-#import streamlit as st
-#import plotly.express as px
+import os
 
-# Load the dataset (replace 'your_dataset.csv' with the actual file name)
-data_file = "Superstore.csv"
+data_file = os.path.join(os.getcwd(), "Superstore.csv")
 df = pd.read_csv(data_file, encoding="latin1")
 
 # Streamlit app
